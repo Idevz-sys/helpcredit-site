@@ -1,0 +1,34 @@
+.section-counts {
+  justify-content: center;
+}
+
+.section-about {
+  margin-bottom: 3rem;
+}
+
+#footer {
+  background-color: #542ca4;
+}
+
+#footer .footer-copyright p {
+  color: white;
+}
+
+#footer .footer-copyright.footer-copyright-style-2 {
+  background: #542da4;
+  border-top: 1px solid rgb(84 45 164 / 5%);
+}
+
+#footer p {
+  color: white;
+}
+
+#footer a {
+  color: white !important;
+}
+
+@media (max-width: 991px) {
+  .card-space {
+    display: none;
+  }
+}
