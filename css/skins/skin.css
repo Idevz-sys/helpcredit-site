@@ -1095,10 +1095,12 @@ html .overlay-color-light:not(.no-skin):before {
 	color: #6038ca;
 }
 
+
 html .btn-primary {
 	background-color: #4c2ca4;
 	border-color: #4c2ca4 #4c2ca4 #6038ca;
 	color: #FFF;
+	border-radius: 35px;
 	--color: #4c2ca4;
 	--hover: #6038ca;
 	--disabled: #4c2ca4;

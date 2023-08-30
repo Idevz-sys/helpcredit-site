@@ -32,3 +32,12 @@
     display: none;
   }
 }
+
+.btn12 {
+  padding: 20px;
+  color: white;
+  background-color: #542ca4;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
