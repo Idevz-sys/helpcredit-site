@@ -33,6 +33,24 @@
   }
 }
 
+@media (max-width: 767px) {
+  .btn-modern {
+    padding: 1rem 0.5rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .btn-acess {
+    display: block;
+  }
+}
+
+@media (min-width: 576px) {
+  .btn-acess {
+    display: none !important;
+  }
+}
+
 .btn12 {
   padding: 20px;
   color: white;
@@ -40,4 +58,3 @@
   border-radius: 20px;
   text-decoration: none;
 }
-
