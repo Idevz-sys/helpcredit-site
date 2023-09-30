@@ -27,6 +27,25 @@
   color: white !important;
 }
 
+@media (min-width: 991px) and (max-width: 1199px) {
+  .header-row {
+    flex-direction: column;
+  }
+
+  #header .header-column .header-row {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .header-container.header-container-height-sm.container.container-xl-custom {
+    height: auto;
+  }
+
+  #header .header-container.header-container-height-sm {
+    height: auto;
+  }
+}
+
 @media (max-width: 991px) {
   .card-space {
     display: none;
@@ -36,6 +55,17 @@
 @media (max-width: 767px) {
   .btn-modern {
     padding: 1rem 0.5rem;
+  }
+
+  .center-btn {
+    display: flex;
+    justify-content: center;
+  }
+
+  .word-rotator.type b.is-visible {
+    display: flex !important;
+    flex-wrap: wrap;
+    gap: 2px;
   }
 }
 
