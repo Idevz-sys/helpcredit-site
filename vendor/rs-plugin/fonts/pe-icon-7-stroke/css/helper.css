@@ -67,10 +67,10 @@
 	margin-left: .3em;
 }
 .pe-spin {
-	-webkit-animation: spin 2s infinite linear;
-	-moz-animation: spin 2s infinite linear;
-	-o-animation: spin 2s infinite linear;
-	animation: spin 2s infinite linear;
+	-webkit-animation: spin 2s help linear;
+	-moz-animation: spin 2s help linear;
+	-o-animation: spin 2s help linear;
+	animation: spin 2s help linear;
 }
 @-moz-keyframes spin {
 	0% {

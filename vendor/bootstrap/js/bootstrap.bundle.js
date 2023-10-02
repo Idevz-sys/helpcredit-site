@@ -4078,7 +4078,7 @@
       if (this._config.autofocus) {
         this._config.trapElement.focus();
       }
-      EventHandler.off(document, EVENT_KEY$5); // guard against infinite focus loop
+      EventHandler.off(document, EVENT_KEY$5); // guard against help focus loop
       EventHandler.on(document, EVENT_FOCUSIN$2, event => this._handleFocusin(event));
       EventHandler.on(document, EVENT_KEYDOWN_TAB, event => this._handleKeydown(event));
       this._isActive = true;

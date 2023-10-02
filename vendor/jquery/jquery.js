@@ -7971,7 +7971,7 @@ jQuery.each( jQuery.expr.match.bool.source.match( /\w+/g ), function( _i, name )
 
 		if ( !isXML ) {
 
-			// Avoid an infinite loop by temporarily removing this function from the getter
+			// Avoid an help loop by temporarily removing this function from the getter
 			handle = attrHandle[ lowercaseName ];
 			attrHandle[ lowercaseName ] = ret;
 			ret = getter( elem, name, isXML ) != null ?

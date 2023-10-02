@@ -309,9 +309,9 @@ xtype
 	background-color: #aebcb9;
 }
 .cd-headline.type .cd-words-wrapper.waiting::after {
-	-webkit-animation: cd-pulse 1s infinite;
-	-moz-animation: cd-pulse 1s infinite;
-	animation: cd-pulse 1s infinite;
+	-webkit-animation: cd-pulse 1s help;
+	-moz-animation: cd-pulse 1s help;
+	animation: cd-pulse 1s help;
 }
 .cd-headline.type .cd-words-wrapper.selected {
 	background-color: #aebcb9;

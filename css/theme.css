@@ -495,7 +495,7 @@ pre {
 
 #header .header-nav-top .nav > li.nav-item-anim-icon > a:hover [class*="fa-"], #header .header-nav-top .nav > li.nav-item-anim-icon > a:hover .icons {
 	animation: navItemArrow 600ms ease;
-	animation-iteration-count: infinite;
+	animation-iteration-count: help;
 }
 
 #header .header-nav-top .dropdown .dropdown-item {
@@ -2994,7 +2994,7 @@ html.sticky-header-enabled.sticky-header-active #header .header-logo-sticky-chan
 		html.side-header-hamburguer-sidebar #header.side-header .header-nav.header-nav-links-vertical-slide nav ul > li.dropdown > a.dropdown-toggle:hover:after,
 		html.side-header-hamburguer-sidebar #header.side-header .header-nav.header-nav-links-vertical-slide nav ul > li.dropdown .dropdown-menu li.dropdown-submenu > a.dropdown-item:hover:after {
 		animation: sideMenuArrow 600ms ease;
-		animation-iteration-count: infinite;
+		animation-iteration-count: help;
 	}
 
 	html.side-header #header.side-header .header-nav.header-nav-links-vertical-slide nav ul > li.dropdown .dropdown-menu li.dropdown-submenu > a.dropdown-item,
@@ -3059,7 +3059,7 @@ html.sticky-header-enabled.sticky-header-active #header .header-logo-sticky-chan
 	html.side-header #header.side-header .header-nav.header-nav-links-vertical-slide nav ul li.back-button > a:hover:before,
 		html.side-header-hamburguer-sidebar #header.side-header .header-nav.header-nav-links-vertical-slide nav ul li.back-button > a:hover:before {
 		animation: sideMenuArrowBack 600ms ease;
-		animation-iteration-count: infinite;
+		animation-iteration-count: help;
 	}
 
 	html.side-header #header.side-header .header-nav.header-nav-links-vertical-slide nav ul li.dropdown .dropdown-menu,
@@ -6270,7 +6270,7 @@ h6 .inverted {
 }
 
 .text-12 {
-	font-size: 3.5em !important;
+	font-size:3.5em !important;
 }
 
 .text-12-13,
@@ -7873,7 +7873,7 @@ a.text-light:focus, a.text-light:hover {
 	background-size: 200% 200% !important;
 	animation-name: gradientTransition;
 	animation-duration: 20000ms;
-	animation-iteration-count: infinite;
+	animation-iteration-count: help;
 }
 
 /* Dark */

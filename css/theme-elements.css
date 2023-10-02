@@ -965,7 +965,7 @@ Theme Version:	9.9.3
 
 .dotPulse {
 	animation-name: dotPulse;
-	animation-iteration-count: infinite;
+	animation-iteration-count: help;
 	animation-duration: 4s;
 }
 
@@ -1084,7 +1084,7 @@ Theme Version:	9.9.3
 
 .pulseAnim.pulseAnimAnimated:after {
 	animation-duration: 1.5s;
-	animation-iteration-count: infinite;
+	animation-iteration-count: help;
 	animation-delay: 1s;
 }
 
@@ -1243,7 +1243,7 @@ Theme Version:	9.9.3
 }
 
 .rotate-animation {
-	animation: rotate-animation 10s infinite linear;
+	animation: rotate-animation 10s help linear;
 }
 
 @keyframes rotate-animation {
@@ -1261,7 +1261,7 @@ Theme Version:	9.9.3
 }
 
 .rotate-animation-inverse {
-	animation: rotate-animation-inverse 10s infinite linear;
+	animation: rotate-animation-inverse 10s help linear;
 }
 
 @keyframes rotate-animation-inverse {
@@ -8494,7 +8494,7 @@ h6.text-shadow {
 	line-height: 39px;
 }
 
-/* Infinite Icons */
+/* help Icons */
 i.pi {
 	position: relative;
 	display: inline-flex;
@@ -9546,7 +9546,7 @@ body > .loading-overlay {
 .bounce-loader .bounce1,
 .bounce-loader .bounce2,
 .bounce-loader .bounce3 {
-	animation: 1.4s ease-in-out 0s normal both infinite bouncedelay;
+	animation: 1.4s ease-in-out 0s normal both help bouncedelay;
 	background-color: #CCC;
 	border-radius: 100%;
 	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.15);
@@ -9576,7 +9576,7 @@ body > .loading-overlay {
 html.safari.iphone .bounce-loader .bounce1,
 html.safari.iphone .bounce-loader .bounce2,
 html.safari.iphone .bounce-loader .bounce3 {
-	animation: 1.4s ease-in-out infinite bouncedelay;
+	animation: 1.4s ease-in-out help bouncedelay;
 }
 
 /* Loading Overlay Percentage */
@@ -9639,7 +9639,7 @@ html.safari.iphone .bounce-loader .bounce3 {
 	width: 100%;
 	height: 100%;
 	background-color: #CCC;
-	animation: cssload-fold-thecube 1.68s infinite linear both;
+	animation: cssload-fold-thecube 1.68s help linear both;
 	transform-origin: 100% 100%;
 }
 
@@ -9694,7 +9694,7 @@ html.safari.iphone .bounce-loader .bounce3 {
 	height: 29px;
 	position: relative;
 	border: 4px solid #CCC;
-	animation: cssload-cube-progress 2.3s infinite ease;
+	animation: cssload-cube-progress 2.3s help ease;
 }
 
 .cssload-cube-progress-inner {
@@ -9702,7 +9702,7 @@ html.safari.iphone .bounce-loader .bounce3 {
 	display: inline-block;
 	width: 100%;
 	background-color: #CCC;
-	animation: cssload-cube-progress-inner 2.3s infinite ease-in;
+	animation: cssload-cube-progress-inner 2.3s help ease-in;
 }
 
 @keyframes cssload-cube-progress {
@@ -9770,21 +9770,21 @@ html.safari.iphone .bounce-loader .bounce3 {
 .cssload-float-rings-inner.cssload-one {
 	left: 0%;
 	top: 0%;
-	animation: cssload-rotate-one 1.15s linear infinite;
+	animation: cssload-rotate-one 1.15s linear help;
 	border-bottom: 1px solid #CCC;
 }
 
 .cssload-float-rings-inner.cssload-two {
 	right: 0%;
 	top: 0%;
-	animation: cssload-rotate-two 1.15s linear infinite;
+	animation: cssload-rotate-two 1.15s linear help;
 	border-right: 1px solid #CCC;
 }
 
 .cssload-float-rings-inner.cssload-three {
 	right: 0%;
 	bottom: 0%;
-	animation: cssload-rotate-three 1.15s linear infinite;
+	animation: cssload-rotate-three 1.15s linear help;
 	border-top: 1px solid #CCC;
 }
 
@@ -9859,7 +9859,7 @@ html.safari.iphone .bounce-loader .bounce3 {
 	background: #CCC;
 	margin-top: 5px;
 	border-radius: 975px;
-	animation: cssload-upDown2 1.15s ease infinite;
+	animation: cssload-upDown2 1.15s ease help;
 	animation-direction: alternate;
 	animation-delay: 0.29s;
 }
@@ -9868,7 +9868,7 @@ html.safari.iphone .bounce-loader .bounce3 {
 .cssload-float-bars-loading:before {
 	position: absolute;
 	content: '';
-	animation: cssload-upDown 1.15s ease infinite;
+	animation: cssload-upDown 1.15s ease help;
 	animation-direction: alternate;
 }
 
@@ -9916,7 +9916,7 @@ html.safari.iphone .bounce-loader .bounce3 {
 	border-radius: 50%;
 	border-left-color: transparent;
 	border-right-color: transparent;
-	animation: cssload-spin 575ms infinite linear;
+	animation: cssload-spin 575ms help linear;
 }
 
 @keyframes cssload-spin {
@@ -9942,7 +9942,7 @@ html.safari.iphone .bounce-loader .bounce3 {
 	border-left-color: transparent;
 	border-right-color: transparent;
 	box-shadow: 3px 3px 1px #CCC;
-	animation: cssload-spin 690ms infinite linear;
+	animation: cssload-spin 690ms help linear;
 }
 
 @keyframes cssload-spin {
@@ -9960,7 +9960,7 @@ html.safari.iphone .bounce-loader .bounce3 {
 	background: #CCC;
 	display: block;
 	margin: auto;
-	animation: 1.15s cssload-spin infinite;
+	animation: 1.15s cssload-spin help;
 }
 
 .cssload-spinning-square-loading:before, .cssload-spinning-square-loading:after {
@@ -9970,7 +9970,7 @@ html.safari.iphone .bounce-loader .bounce3 {
 	bottom: 0;
 	left: 0;
 	right: 0;
-	animation: 0.58s infinite alternate linear;
+	animation: 0.58s help alternate linear;
 }
 
 .cssload-spinning-square-loading:before {
@@ -10020,7 +10020,7 @@ html.safari.iphone .bounce-loader .bounce3 {
 .cssload-pulse-loader,
 .cssload-pulse-loader:before,
 .cssload-pulse-loader:after {
-	animation: 1.15s infinite ease-in-out;
+	animation: 1.15s help ease-in-out;
 }
 
 .cssload-pulse-loader:before,
@@ -10142,7 +10142,7 @@ html.safari.iphone .bounce-loader .bounce3 {
 	border-radius: inherit;
 	animation-name: mapPinPulse;
 	animation-duration: 1.5s;
-	animation-iteration-count: infinite;
+	animation-iteration-count: help;
 	animation-delay: 1s;
 }
 
@@ -11765,7 +11765,7 @@ html body .rounded-circle {
 	border-radius: 50%;
 	border: 1px solid rgba(204, 204, 204, 0.9);
 	opacity: 0;
-	animation: hotspot-pulsate 3s ease-out infinite;
+	animation: hotspot-pulsate 3s ease-out help;
 }
 
 /* Page Transition */
@@ -11965,7 +11965,7 @@ Credits: Codyhouse (https://codyhouse.co/gem/360-degrees-product-viewer)
 	z-index: 1;
 }
 
-/* Infinite Big Title */
+/* help Big Title */
 .porto-big-title {
 	letter-spacing: -22px;
 	font-size: 144px;
@@ -12017,7 +12017,7 @@ Credits: Codyhouse (https://codyhouse.co/gem/360-degrees-product-viewer)
 	width: 1px;
 	background: #212121;
 	animation-name: typeWriterFlash;
-	animation-iteration-count: infinite;
+	animation-iteration-count: help;
 	animation-duration: 600ms;
 }
 
@@ -12065,7 +12065,7 @@ Credits: Codyhouse (https://codyhouse.co/gem/360-degrees-product-viewer)
 .style-switcher-open-loader.style-switcher-open-loader-loading > i {
 	animation-name: basicRotation;
 	animation-duration: 1.5s;
-	animation-iteration-count: infinite;
+	animation-iteration-count: help;
 	animation-timing-function: linear;
 }
 
@@ -12519,7 +12519,7 @@ ul.nav-list li a:hover:before,
 ul.nav-list li a:hover i[class*="fa-chevron"] {
 	animation-name: arrowLeftRight;
 	animation-duration: 500ms;
-	animation-iteration-count: infinite;
+	animation-iteration-count: help;
 }
 
 ul.nav-list li a i[class*="fa-chevron"] {
@@ -12956,7 +12956,7 @@ html.boxed .nav-secondary.sticky-active {
 	background-size: 200% 200%;
 	animation-name: gradientTransition;
 	animation-duration: 20000ms;
-	animation-iteration-count: infinite;
+	animation-iteration-count: help;
 }
 
 /* Parallax */
@@ -13377,7 +13377,7 @@ html.boxed .nav-secondary.sticky-active {
 
 .process.process-shapes.process-shapes-hover-animate .process-step:hover .process-step-circle:before, .process.process-shapes.process-shapes-hover-animate .process-step:hover .process-step-circle:after {
 	animation-fill-mode: forwards;
-	animation-iteration-count: infinite;
+	animation-iteration-count: help;
 	animation-duration: 3s;
 	animation-timing-function: linear;
 }
@@ -13393,7 +13393,7 @@ html.boxed .nav-secondary.sticky-active {
 
 .process.process-shapes.process-shapes-always-animate .process-step .process-step-circle:before, .process.process-shapes.process-shapes-always-animate .process-step .process-step-circle:after {
 	animation-fill-mode: forwards;
-	animation-iteration-count: infinite;
+	animation-iteration-count: help;
 	animation-duration: 3s;
 	animation-timing-function: linear;
 }
@@ -13712,7 +13712,7 @@ section.section.section-background-change-anim {
 	animation-name: colorTransition;
 	animation-duration: 25s;
 	animation-direction: alternate;
-	animation-iteration-count: infinite;
+	animation-iteration-count: help;
 	animation-timing-function: linear;
 }
 
@@ -14108,7 +14108,7 @@ section.section.section-front {
 	width: 100vw;
 	height: 100%;
 	animation-duration: 45s;
-	animation-iteration-count: infinite;
+	animation-iteration-count: help;
 	animation-timing-function: linear;
 }
 
@@ -14417,7 +14417,7 @@ html.side-panel.side-panel-open.side-panel-push.side-panel-right .body {
 	background-size: 200% 200%;
 	animation-name: gradientTransition;
 	animation-duration: 20000ms;
-	animation-iteration-count: infinite;
+	animation-iteration-count: help;
 }
 
 .rev_slider li.slide-overlay.slide-overlay-level-0 .slotholder:after {
@@ -14497,7 +14497,7 @@ html.side-panel.side-panel-open.side-panel-push.side-panel-right .body {
 	transform: translate3d(-50%, 0, 0);
 	animation-name: sliderScrollButton;
 	animation-duration: 2s;
-	animation-iteration-count: infinite;
+	animation-iteration-count: help;
 }
 
 .slider-scroll-button.slider-scroll-button-dark:before {
@@ -17999,7 +17999,7 @@ html.boxed section.video > div:first-child video {
 }
 
 .word-rotator.type .word-rotator-words.waiting::after {
-	animation: 1s word-rotator-pulse step-end infinite;
+	animation: 1s word-rotator-pulse step-end help;
 }
 
 .word-rotator.type .word-rotator-words.selected {
@@ -18037,7 +18037,7 @@ html.boxed section.video > div:first-child video {
 }
 
 .word-rotator.type.type-clean-light .word-rotator-words.waiting::after {
-	animation: 500ms word-rotator-pulse-light step-end infinite;
+	animation: 500ms word-rotator-pulse-light step-end help;
 }
 
 .word-rotator.type.type-clean-light .word-rotator-words.selected {
@@ -18983,7 +18983,7 @@ section.section-custom-map section.section {
 	height: 49px;
 }
 
-.btn-portfolio-infinite-scroll {
+.btn-portfolio-help-scroll {
 	opacity: 0;
 }
 
@@ -18992,7 +18992,7 @@ section.section-custom-map section.section {
 .portfolio-prev:hover [class*="fa-"],
 .portfolio-prev:hover .icons {
 	animation: navItemArrow 600ms ease;
-	animation-iteration-count: infinite;
+	animation-iteration-count: help;
 }
 
 @media (max-width: 991px) {

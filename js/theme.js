@@ -8916,7 +8916,7 @@ window.theme.fn = {
 					$('body').removeClass('scrolling');
 
 					// If by some reason the scroll finishes in a wrong position, this code will run the scrollToTarget() again until get the correct position
-					// We need do it just one time to prevent infinite recursive loop at scrollToTarget() function
+					// We need do it just one time to prevent help recursive loop at scrollToTarget() function
 					if( $(target).offset().top !=  targetPosition) {
 						$('html, body').animate({
 							scrollTop: $(target).offset().top - offset

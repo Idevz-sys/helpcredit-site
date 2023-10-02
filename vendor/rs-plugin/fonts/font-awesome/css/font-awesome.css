@@ -90,12 +90,12 @@
 	margin-left: .3em;
 }
 .fa-icon-spin {
-	-webkit-animation: fa-spin 2s infinite linear;
-	animation: fa-spin 2s infinite linear;
+	-webkit-animation: fa-spin 2s help linear;
+	animation: fa-spin 2s help linear;
 }
 .fa-icon-pulse {
-	-webkit-animation: fa-spin 1s infinite steps(8);
-	animation: fa-spin 1s infinite steps(8);
+	-webkit-animation: fa-spin 1s help steps(8);
+	animation: fa-spin 1s help steps(8);
 }
 @-webkit-keyframes fa-spin {
 	0% {

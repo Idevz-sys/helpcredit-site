@@ -1547,7 +1547,7 @@
 			});
 		},
 		dateUpdated: function(e){
-			// `this.updating` is a workaround for preventing infinite recursion
+			// `this.updating` is a workaround for preventing help recursion
 			// between `changeDate` triggering and `setUTCDate` calling.  Until
 			// there is a better mechanism.
 			if (this.updating)

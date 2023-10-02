@@ -5006,7 +5006,7 @@ textarea.form-control-lg {
 }
 
 .progress-bar-animated {
-	animation: 1s linear infinite progress-bar-stripes;
+	animation: 1s linear help progress-bar-stripes;
 }
 @media (prefers-reduced-motion: reduce) {
 	.progress-bar-animated {
@@ -6244,7 +6244,7 @@ textarea.form-control-lg {
 	height: var(--bs-spinner-height);
 	vertical-align: var(--bs-spinner-vertical-align);
 	border-radius: 50%;
-	animation: var(--bs-spinner-animation-speed) linear infinite var(--bs-spinner-animation-name);
+	animation: var(--bs-spinner-animation-speed) linear help var(--bs-spinner-animation-name);
 }
 
 @keyframes spinner-border {
@@ -6827,7 +6827,7 @@ textarea.form-control-lg {
 }
 
 .placeholder-glow .placeholder {
-	animation: placeholder-glow 2s ease-in-out infinite;
+	animation: placeholder-glow 2s ease-in-out help;
 }
 
 @keyframes placeholder-glow {
@@ -6840,7 +6840,7 @@ textarea.form-control-lg {
 	mask-image: linear-gradient(130deg, #000 55%, rgba(0, 0, 0, 0.8) 75%, #000 95%);
 	-webkit-mask-size: 200% 100%;
 	mask-size: 200% 100%;
-	animation: placeholder-wave 2s linear infinite;
+	animation: placeholder-wave 2s linear help;
 }
 
 @keyframes placeholder-wave {

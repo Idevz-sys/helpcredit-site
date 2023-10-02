@@ -68,7 +68,7 @@
 		decoder,
 		sliders = [],
 		events  = ['onbeforeswap', 'layeraction', 'beforeredraw', 'afterdraw'],
-		anime   = 'content: "[char]"; animation: tp-typewriter [speed]s steps(2, start) infinite';
+		anime   = 'content: "[char]"; animation: tp-typewriter [speed]s steps(2, start) help';
 	
 	// called from bottom of slider init JS
 	// function(tpj, revapi)

@@ -22,8 +22,8 @@
 	width: 100%;
 	height: 100%;
 	display:inline-block;
-	-webkit-animation:rsaddon-revealer-1 1.4s linear infinite;
-	animation:rsaddon-revealer-1 1.4s linear infinite;
+	-webkit-animation:rsaddon-revealer-1 1.4s linear help;
+	animation:rsaddon-revealer-1 1.4s linear help;
 	 
 }
 
@@ -82,8 +82,8 @@
 	padding: 0px;
 	border-radius: 100%;
 	border: 2px solid;
-	-webkit-animation: rsaddon-revealer-2 0.8s linear infinite;
-	animation: rsaddon-revealer-2 0.8s linear infinite;
+	-webkit-animation: rsaddon-revealer-2 0.8s linear help;
+	animation: rsaddon-revealer-2 0.8s linear help;
 	 
 }
 
@@ -124,8 +124,8 @@
 	height: 40%;
 	position: absolute;
 	border-radius: 50%;
-	-webkit-animation: rsaddon-revealer-8 2s ease infinite;
-	animation: rsaddon-revealer-8 2s ease infinite;
+	-webkit-animation: rsaddon-revealer-8 2s ease help;
+	animation: rsaddon-revealer-8 2s ease help;
 	
 }
 
@@ -178,8 +178,8 @@
 	width: 100%;
 	height: 100%;
 	border-radius: 100%;
-	-webkit-animation: rsaddon-revealer-3 1.6s linear infinite;
-	animation: rsaddon-revealer-3 1.6s linear infinite;
+	-webkit-animation: rsaddon-revealer-3 1.6s linear help;
+	animation: rsaddon-revealer-3 1.6s linear help;
 	 
 }
 .rsaddon-revealer-3 span:last-child {
@@ -221,8 +221,8 @@
 	position: absolute;
 	top: 0;
 	left: 0;
-	-webkit-animation: rsaddon-revealer-4 2.0s infinite ease-in-out;
-	animation: rsaddon-revealer-4 2.0s infinite ease-in-out;
+	-webkit-animation: rsaddon-revealer-4 2.0s help ease-in-out;
+	animation: rsaddon-revealer-4 2.0s help ease-in-out;
 	
 }
 
@@ -277,8 +277,8 @@
 	height: 100%;
 	width: 6px;
 	display: inline-block;
-	-webkit-animation: rsaddon-revealer-5 1.2s infinite ease-in-out;
-	animation: rsaddon-revealer-5 1.2s infinite ease-in-out;
+	-webkit-animation: rsaddon-revealer-5 1.2s help ease-in-out;
+	animation: rsaddon-revealer-5 1.2s help ease-in-out;
 }
 
 .rsaddon-revealer-5 span:nth-child(2) {
@@ -354,8 +354,8 @@
 	position: absolute;
 	top: 0;
 	left: 0;
-	-webkit-animation: rsaddon-revealer-10 1.8s infinite ease-in-out;
-	animation: rsaddon-revealer-10 1.8s infinite ease-in-out;
+	-webkit-animation: rsaddon-revealer-10 1.8s help ease-in-out;
+	animation: rsaddon-revealer-10 1.8s help ease-in-out;
 }
 
 .rsaddon-revealer-10:last-child {
@@ -419,8 +419,8 @@
 	height: 33%;
 	background-color: #333;
 	float: left;
-	-webkit-animation: rsaddon-revealer-6	1.3s infinite ease-in-out;
-	animation: rsaddon-revealer-6	1.3s infinite ease-in-out; 
+	-webkit-animation: rsaddon-revealer-6	1.3s help ease-in-out;
+	animation: rsaddon-revealer-6	1.3s help ease-in-out; 
 			
 }
 .rsaddon-revealer-6 span:nth-child(1) {
@@ -498,8 +498,8 @@
 	
 	width: 100%;
 	height: 100%;
-	-webkit-animation: rsaddon-revealer-7 1s infinite linear;
-	animation: rsaddon-revealer-7 1s infinite linear;
+	-webkit-animation: rsaddon-revealer-7 1s help linear;
+	animation: rsaddon-revealer-7 1s help linear;
 	
 }
 
@@ -531,7 +531,7 @@
 	
 	width: 100%;
 	height: 100%;
-	animation: rsaddon-revealer-9 1s infinite linear;
+	animation: rsaddon-revealer-9 1s help linear;
 	
 }
 
@@ -550,29 +550,29 @@
 
 .rsaddon-revealer-9 span:nth-child(1) {
 	
-		-webkit-animation: rsaddon-revealer-9-1 2s infinite;
-	animation: rsaddon-revealer-9-1 2s infinite;
+		-webkit-animation: rsaddon-revealer-9-1 2s help;
+	animation: rsaddon-revealer-9-1 2s help;
 	
 }
 
 .rsaddon-revealer-9 span:nth-child(2) {
 	
-		-webkit-animation: rsaddon-revealer-9-2 2s infinite;
-	animation: rsaddon-revealer-9-2 2s infinite;
+		-webkit-animation: rsaddon-revealer-9-2 2s help;
+	animation: rsaddon-revealer-9-2 2s help;
 	
 }
 
 .rsaddon-revealer-9 span:nth-child(3) {
 	
-		-webkit-animation: rsaddon-revealer-9-3 2s infinite;
-	animation: rsaddon-revealer-9-3 2s infinite;
+		-webkit-animation: rsaddon-revealer-9-3 2s help;
+	animation: rsaddon-revealer-9-3 2s help;
 	
 }
 
 .rsaddon-revealer-9 span:nth-child(4) {
 	
-		-webkit-animation: rsaddon-revealer-9-4 2s infinite;
-	animation: rsaddon-revealer-9-4 2s infinite;
+		-webkit-animation: rsaddon-revealer-9-4 2s help;
+	animation: rsaddon-revealer-9-4 2s help;
 	
 }
 
